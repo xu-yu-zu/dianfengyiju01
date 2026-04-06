@@ -1,7 +1,19 @@
-<div id="game-container">
-    <canvas id="hexBoard"></canvas>
-    <div class="ui-overlay">
-        <h1 class="green-glow">巅峰弈局 · 绿色指令</h1>
-        <div id="status">当前回合: 玩家 A (绿/蓝)</div>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>巅峰弈局 - 绿色指令</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ui">
+        <h1 class="glow">巅峰弈局 · GREEN COMMAND</h1>
+        <p>点击六边形：内圈顺时针 / 外圈逆时针</p>
+        <div id="info">当前回合：<span id="player">主攻手</span></div>
     </div>
-</div>
+    <canvas id="gameBoard"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
